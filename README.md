@@ -6,17 +6,16 @@ This repository contains the network analysis and scanning exercise conducted as
 
 ## 📁 Repository Structure  
 
-### ▶️ [`Packet_Analysis/`](./Packet_Analysis/)  
+### ▶️ [`Wireshark/`](./Wireshark/)  
 Contains:  
-- 📄 `packet_analyzer.pcapng` – Raw Wireshark capture (contains sensitive IP info)  
-- 📄 `packet_analyzer_cleaned.pcapng` – Anonymized file (safe for public sharing)  
+- 📄 `packet_analyzer_anonymized.pcapng` – Anonymized file (safe for public sharing)  
 
-### ▶️ [`Nmap_Scans/`](./Nmap_Scans/)  
+### ▶️ [`Nmap/`](./Nmap/)  
 Contains:  
 - Screenshots and summaries of Nmap scans for various IPs  
 - Comments on open ports, likely device types, and services  
 
-### ▶️ [`Final-Report/`](./Final-Report/)  
+### ▶️ [`Final_Report/`](./Final_Report/)  
 Contains:  
 📄 `Task3_NetworkAnalysis_Report.docx` – Final report detailing scanning results, Wireshark findings, and privacy measures  
 
@@ -41,8 +40,7 @@ Contains:
   - Analyzed key packets using filters like `http`, `dns`, `tcp.port == 80`  
   - Exported filtered results and anonymized sensitive metadata
 
-- **Anonymization Measures**:
-  - Replaced all internal IPs with generic addresses like `192.168.100.x`  
+- **Anonymization Measures**:  
   - MAC addresses and hostnames scrubbed from public files  
   - Any identifiable names or domains were excluded or obfuscated  
 
