@@ -1,6 +1,6 @@
-# 🌐 Network Scanning & Traffic Analysis – Task 3
+# 🌐 Securing your own Wi-Fi Networks – Task 3
 
-This repository contains the network analysis and scanning exercise conducted as part of **Task 3** of the cybersecurity internship. The objective was to perform both active and passive analysis on a local network, understand traffic patterns, and identify open ports and connected devices.
+This repository contains the network analysis and scanning exercise conducted as part of **Task 3** of the cybersecurity internship. The objective was to perform both active and passive analysis on a local network, understand traffic patterns, and identify open ports and connected devices to secure our own Wi-Fi network.
 
 ---
 
@@ -17,7 +17,7 @@ Contains:
 
 ### ▶️ [`Final_Report/`](./Final_Report/)  
 Contains:  
-📄 `Task3_NetworkAnalysis_Report.docx` – Final report detailing scanning results, Wireshark findings, and privacy measures  
+📄 `Task3 Wi-Fi Security Testing.docx` – Final report detailing scanning results, Wireshark findings, and privacy measures  
 
 ---
 
@@ -56,7 +56,7 @@ Contains:
 
 ## 📝 Notes on Public Sharing  
 - The original `.pcapng` file is retained for internal review only  
-- Only the anonymized `.pcapng` file (`packet_analyzer_cleaned.pcapng`) is safe to post  
+- Only the anonymized `.pcapng` file (`packet_analyzer_anonymized.pcapng`) is safe to post  
 - Nmap screenshots have been redacted/blurry where IPs are visible – public release follows ethical disclosure guidelines  
 
 ---
